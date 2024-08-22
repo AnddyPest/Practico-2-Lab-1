@@ -6,12 +6,14 @@ public class Persona {
     String apellido;
     int edad;
     double altura;
+    Reloj reloj;
 
-    public Persona(String nombre, String apellido, int edad, double altura) {
+    public Persona(String nombre, String apellido, int edad, double altura, Reloj reloj) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
         this.altura = altura;
+        this.reloj = reloj;
     }
 
     public String getNombre() {
