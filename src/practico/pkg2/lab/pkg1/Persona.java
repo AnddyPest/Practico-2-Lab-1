@@ -16,6 +16,7 @@ public class Persona {
         this.reloj = reloj;
     }
 
+    
     public String getNombre() {
         return nombre;
     }
