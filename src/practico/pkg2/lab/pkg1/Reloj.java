@@ -6,7 +6,10 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 public class Reloj {
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6d98250b6bb41c77e9327e9742dd54cfa103900d
     String dia;
         String hora;
     String modelo;
