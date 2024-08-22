@@ -7,6 +7,7 @@ public class Persona {
     int edad;
     double altura;
     Reloj reloj;
+    
 
     public Persona(String nombre, String apellido, int edad, double altura, Reloj reloj) {
         this.nombre = nombre;
@@ -47,6 +48,9 @@ public class Persona {
 
     public void setAltura(double altura) {
         this.altura = altura;
+    }
+    public void cambiarReloj(Reloj reloj){
+        this.reloj = reloj;
     }
     
     public void comer() {
