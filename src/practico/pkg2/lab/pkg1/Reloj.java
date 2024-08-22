@@ -1,14 +1,18 @@
 package practico.pkg2.lab.pkg1;
 
-<<<<<<< HEAD
-public class Reloj {
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+
+
     
-=======
+
 public final class Reloj {
 
->>>>>>> beb8cacc24f36233ee3a86a464fb0a21be81d19f
+
     String dia;
-    String mes;
+    
     String hora;
     String modelo;
     long numSerie;
@@ -37,7 +41,10 @@ public final class Reloj {
     }
     
     public void incrementarDia() {
-        
+        DateTimeFormatter patron = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        LocalDate fecha = LocalDate.parse(dia,patron);
+        fecha = fecha.plusDays(1);
+        dia = fecha.toString();
     }
     
     public void incrementarHora() {
