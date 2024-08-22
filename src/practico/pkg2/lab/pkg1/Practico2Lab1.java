@@ -8,8 +8,8 @@ public class Practico2Lab1 {
 
         
         
-       Relos Casio = new Reloj("DOCE/DICIEMBRE/","",)
-       Persona person = new Persona("Carlos","Luna",25,1,80,)
+       Reloj Casio = new Reloj("12/12/2002","12:30","casio",122123);
+       Persona person = new Persona( "fernando","lopez",22,1.78, Casio );
     }
 
 }
