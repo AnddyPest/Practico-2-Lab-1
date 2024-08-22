@@ -11,6 +11,8 @@ public final class RelojFit extends Reloj {
     
  public void cuentaPasos(int pasos){
     Random paso = new Random();
+     System.out.println("Comienza a correr");
+     
     int pasoPorSegundo = 1 + paso.nextInt(3);
      
      
