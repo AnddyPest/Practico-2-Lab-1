@@ -1,7 +1,12 @@
 package practico.pkg2.lab.pkg1;
 
+<<<<<<< HEAD
 public class Reloj {
     
+=======
+public final class Reloj {
+
+>>>>>>> beb8cacc24f36233ee3a86a464fb0a21be81d19f
     String dia;
     String mes;
     String hora;
