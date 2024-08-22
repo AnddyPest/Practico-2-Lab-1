@@ -7,11 +7,9 @@ package practico.pkg2.lab.pkg1;
  */
 public class Practico2Lab1 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        //Marcos Anotnio anduvo aqui jJjaja...
     }
 
 }
