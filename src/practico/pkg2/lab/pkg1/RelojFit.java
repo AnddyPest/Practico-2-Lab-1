@@ -9,7 +9,10 @@ public final class RelojFit extends Reloj {
     }
  
     
- public void cuentaPasos(int x, int y){
+ public void cuentaPasos(int pasos){
+    Random paso = new Random();
+    int pasoPorSegundo = 1 + paso.nextInt(3);
+     
      
  }
  
