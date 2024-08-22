@@ -7,11 +7,7 @@ public final class RelojFit extends Reloj {
     public RelojFit(String dia, String hora, String modelo, long numSerie) {
         super(dia, hora, modelo, numSerie);
     }
-    
-    
-    
-    
- //metodos
+ 
     
  public void cuentaPasos(int x, int y){
      

@@ -8,7 +8,7 @@ public class Reloj {
 
 
     String dia;
-        String hora;
+    String hora;
     String modelo;
     long numSerie;
 
