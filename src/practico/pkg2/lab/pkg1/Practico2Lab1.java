@@ -9,7 +9,15 @@ public class Practico2Lab1 {
         
         
        Reloj Casio = new Reloj("12/12/2002","12:30","casio",122123);
-       Persona person = new Persona( "fernando","lopez",22,1.78, Casio );
+       Reloj Rolex = new RelojFit("12/04/2003", "14:39", "Rolex", 0);
+       Persona persona = new Persona( "fernando","lopez",22,1.78, Casio );
+       
+       
+       persona.comer();
+       persona.decirHora();
+       persona.reloj.incrementarDia();
+       persona.reloj.incrementarHora();
+       persona.cambiarReloj(Rolex);
     }
 
 }
