@@ -1,6 +1,6 @@
 package practico.pkg2.lab.pkg1;
 
-public final class Reloj {
+public class Reloj {
 
     String dia;
     String hora;

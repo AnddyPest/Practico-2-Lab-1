@@ -1,5 +1,5 @@
 package practico.pkg2.lab.pkg1;
-
+import java.util.Scanner;
 public class Persona {
 
     String nombre;
@@ -49,14 +49,16 @@ public class Persona {
     }
     
     public void comer() {
-        
+        System.out.println(this.nombre+" "+this.apellido+" está comiendo.");
     }
     
     public void hablar() {
-        
+        Scanner hablar = new Scanner(System.in).useDelimiter("\n");
+        System.out.println("Ingrese que dirá "+this.nombre+" "+this.apellido+".");
+        System.out.println(this.nombre+" "+this.apellido+" dice: "+hablar.nextLine());
     }
     
     public void decirHora() {
-        
+        System.out.println("La hora actual es: "+reloj.getHora());
     }
 }
