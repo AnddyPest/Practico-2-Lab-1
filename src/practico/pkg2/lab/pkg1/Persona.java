@@ -50,9 +50,14 @@ public class Persona {
         this.altura = altura;
     }
     public void cambiarReloj(Reloj reloj){
-        this.reloj = reloj;
+        if (reloj instanceof RelojFit) {
+            RelojFit relojFit = (RelojFit) reloj;
+            System.out.println("Te has equipado con un reloj 'FIT' que cuenta con funciones adicionales.");
+        }else{
+            System.out.println("Te has equipado un reloj CONVENCIONAL");
+        }
     }
-    
+        
     public void comer() {
         System.out.println(this.nombre+" "+this.apellido+" está comiendo.");
     }
@@ -66,4 +71,6 @@ public class Persona {
     public void decirHora() {
         System.out.println("La hora actual es: "+reloj.getHora());
     }
+
 }
+    

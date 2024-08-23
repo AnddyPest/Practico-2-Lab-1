@@ -14,10 +14,18 @@ public class Practico2Lab1 {
        
        
        persona.comer();
+       
        persona.decirHora();
+       System.out.println(persona.reloj.toString());
        persona.reloj.incrementarDia();
+       System.out.println(persona.reloj.toString());
        persona.reloj.incrementarHora();
+       
        persona.cambiarReloj(Rolex);
+       System.out.println(persona.reloj.toString());
+       
+       
+       
     }
 
 }
