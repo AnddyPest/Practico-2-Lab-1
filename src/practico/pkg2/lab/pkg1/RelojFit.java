@@ -12,18 +12,21 @@ public final class RelojFit extends Reloj {
     
  public void cuentaPasos(){
     Random paso = new Random();
-    String seguir;
-    int pasos=0;
-    int pasoPorSegundo = 1 + paso.nextInt(3);
-    Scanner leer = new Scanner(System.in).useDelimiter("\n");
+    String seguir ="s";
+    int pasos;
+    int pasoPorSegundo;
+    Scanner leer = new Scanner(System.in);
     System.out.println("Ingrese el tiempo que desea correr (segundos)...");
     int j = leer.nextInt();
-    leer.next();
+    pasos=0;
     do{
-    System.out.println("Correrá durante "+j+" segundos.");
-        for(int i=1;i==j;i++) {
+        System.out.println("Correrá durante "+j+" segundos.");
+        for(int i=1;i<=j;i++) {
+            pasoPorSegundo = 1 + paso.nextInt(3);
             pasos = pasos+(i*pasoPorSegundo);
         }
+        System.out.println("Hasta ahora ha corrido "+pasos+" pasos.");
+        leer.nextLine();
         System.out.println("Desea seguir corriendo? S/N");
         seguir = leer.nextLine();
             if(seguir.equalsIgnoreCase("s")){

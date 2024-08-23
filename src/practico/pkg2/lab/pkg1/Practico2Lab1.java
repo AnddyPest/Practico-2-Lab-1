@@ -23,7 +23,8 @@ public class Practico2Lab1 {
        
        persona.cambiarReloj(Rolex);
        System.out.println(persona.reloj.toString());
-       
+       persona.usarFitFrecuencia();
+       persona.usarFitPasos();
        
        
     }
