@@ -35,6 +35,7 @@ public class Reloj {
         this.hora = hora;
     }
     
+    
     public void incrementarDia() {
         DateTimeFormatter patron = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         LocalDate fecha = LocalDate.parse(dia,patron);
