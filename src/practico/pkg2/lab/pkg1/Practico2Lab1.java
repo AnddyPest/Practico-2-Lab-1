@@ -17,14 +17,7 @@ public class Practico2Lab1 {
        persona.decirHora();
        persona.reloj.incrementarDia();
        persona.reloj.incrementarHora();
-       persona.decirHora();
-       persona.reloj.limpiarPantalla();
-       //Cambia el reloj
        persona.cambiarReloj(Rolex);
-       persona.reloj.incrementarHora();
-       persona.reloj.incrementarHora();
-       persona.decirHora();
-       persona.decirFecha();
     }
 
 }

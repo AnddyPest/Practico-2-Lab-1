@@ -50,7 +50,6 @@ public class Persona {
         this.altura = altura;
     }
     public void cambiarReloj(Reloj reloj){
-        System.out.println("He cambiado mi reloj!\n Ahora tengo un " + reloj.modelo);
         this.reloj = reloj;
     }
     
@@ -66,8 +65,5 @@ public class Persona {
     
     public void decirHora() {
         System.out.println("La hora actual es: "+reloj.getHora());
-    }
-    public void decirFecha(){
-        System.out.println("Hoy es: " + reloj.getDia());
     }
 }
